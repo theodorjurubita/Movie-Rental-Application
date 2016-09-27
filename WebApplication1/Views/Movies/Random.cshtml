@@ -1,0 +1,17 @@
+﻿@model WebApplication1.RandomMovieViewModel.RandomMovieCustomer
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+
+@if (Model.customers.Count > 1)
+{
+    <p>At least one person rented this movie!</p>
+}
+
+@foreach(var customer in Model.customers)
+{
+    <li>@customer.Name</li>
+}

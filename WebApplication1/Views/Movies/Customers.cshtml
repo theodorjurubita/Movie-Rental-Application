@@ -1,0 +1,22 @@
+﻿@model WebApplication1.RandomMovieViewModel.RandomMovieCustomer
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+@if (Model.customers.Count == 0)
+{
+    <li>No customers in the list</li>
+
+}
+else
+{
+    int i = 0;
+foreach (var cust in Model.customers)
+{
+    i++;
+    <li> @Html.ActionLink(cust.Name, "Customers", "Movies", new {id = i},null) </li>
+    
+}
+}
