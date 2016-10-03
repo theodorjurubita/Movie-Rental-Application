@@ -15,6 +15,7 @@ C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplicat
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\AutoMapper.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\EntityFramework.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\log4net.dll
@@ -41,7 +42,10 @@ C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplicat
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Owin.dll
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
@@ -49,6 +53,7 @@ C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplicat
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\AutoMapper.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\log4net.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.xml
@@ -56,6 +61,9 @@ C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplicat
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.ApplicationInsights.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
@@ -79,7 +87,6 @@ C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplicat
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.InnitialMigration.resources
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.InnitialMigration1.resources
 C:\Users\jupyt\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.InnitialMigration2.resources
