@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Web;
+using System.Data.Entity;
 using System.Web.Http;
 using AutoMapper;
 using WebApplication1.Dtos;
@@ -22,7 +23,11 @@ namespace WebApplication1.Controllers.Api
         //GET /api/movies
         public IEnumerable<MovieDto> GetMovies()
         {
-            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
+            return _context.Movies
+                .Include(c => c.Genre)
+                .ToList()
+                .Select(Mapper.Map<Movie, MovieDto>);
+
         }
 
         public IHttpActionResult GetMovie(int id)
@@ -51,7 +56,7 @@ namespace WebApplication1.Controllers.Api
             return Created(new Uri(Request.RequestUri + "/" + movie.Id), movieDto);
         }
 
-        //PUT /api/movie/1
+        //PUT /api/movies/1
 
         [HttpPut]
         public void UpdateMovie(int id, MovieDto movieDto)
@@ -69,7 +74,7 @@ namespace WebApplication1.Controllers.Api
 
         }
 
-        //DELETE /api/movie/1
+        //DELETE /api/movies/1
 
         [HttpDelete]
         public void DeleteMovie(int id)

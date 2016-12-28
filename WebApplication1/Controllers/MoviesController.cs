@@ -101,8 +101,8 @@ namespace WebApplication1.Controllers
 
         public ActionResult Index()
         {
-            var mov = _context.Movies.Include(m => m.Genre).ToList();
-            return View(mov);
+            //var mov = _context.Movies.Include(m => m.Genre).ToList();
+            return View();
         }
 
         public ActionResult Details(int Id)
